@@ -1,0 +1,158 @@
+/* Estilos CSS
+*Fondo:             #182D40
+*Fuente:            #FFFFFF
+*Contacto:          #F28705
+*Proyectos:         #F8DE63
+*Mantenimiento:     #8ABF17
+*FondoTextos:       rgba(122, 206, 224, 1)
+*Fuente: Popins titulos y texto DM sans
+*/
+
+/* **************Estílos del título del proyecto *******************/
+
+/* Estílos del div contorno azul */
+.tituloProyecto {
+
+  align-items: center;
+  border-radius: 20px;
+  background-color: #182D40;
+  text-align: center;
+
+  /* nuevos */
+
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border-color: rgba(122, 206, 224, 0.5);
+  border-style: solid;
+
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(122, 206, 224, 0.5);
+    border-style: solid;
+  }
+}
+
+/* Estilos del texto del título */
+#tituloKonikapp {
+
+  text-align: center;
+  color: #FFFFFF !important;
+  font-family: "Poppins";
+
+  &:hover {
+    cursor: pointer;
+    /* box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8); */
+    filter: drop-shadow(0 4px 16px rgba(122, 206, 224, 1));
+  }
+
+}
+
+/* Estílos de la sección de proyectos  */
+.infoProyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estílos de los párrafos */
+.infoProyecto p {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "DM Sans";
+  text-align: justify;
+  
+  
+}
+
+/* Estílos de los subtítulos */
+
+.subTituloProyecto {
+  align-items: center;
+  border-radius: 20px;
+  background-color: #182D40;
+  text-align: center;
+
+  /* nuevos */
+
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border-color: rgba(122, 206, 224, 0.5);
+  border-style: solid;
+
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(122, 206, 224, 0.5);
+    border-style: solid;
+  }
+}
+
+#subtituloKonikapp {
+  text-align: center;
+  color: #FFFFFF !important;
+  font-family: "Poppins";
+
+  &:hover {
+    cursor: pointer;
+    /* box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8); */
+    filter: drop-shadow(0 4px 16px rgba(122, 206, 224, 1));
+  }
+
+}
+
+/* Estílos de las listas */
+.listasStyles {
+  color: #FFFFFF;
+  align-items: baseline;
+  text-align: justify;
+  font-size: 18px;
+  font-family: "DM Sans";
+
+  @media (max-width: 450px) {
+    text-align: center;
+  }
+}
+
+/* Acomodo de la figure  */
+.estiloImgWyM {
+  width: 90%;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#MyW2 {
+  width: 100%;
+
+
+}
+
+h3 {
+  
+
+    text-align: center;
+    color: #FFFFFF !important;
+    font-family: "Poppins";
+    justify-content: center;
+    align-items: center;
+  
+    &:hover {
+      cursor: pointer;
+      /* box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8); */
+      filter: drop-shadow(0 4px 16px rgba(122, 206, 224, 1));
+    }
+  
+  
+}

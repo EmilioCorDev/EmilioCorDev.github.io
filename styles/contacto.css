@@ -1,0 +1,202 @@
+/* Estilos CSS
+*Fondo:             #182D40
+*Fuente:            #FFFFFF
+*Contacto:          #F28705
+*Proyectos:         #F8DE63
+*Mantenimiento:     #8ABF17
+*FondoTextos:       rgba(122, 206, 224, 1)
+*Fuente: Popins titulos y texto DM sans
+*/
+
+
+/* Estílos del div contorno azul */
+.tituloContacto {
+
+    align-items: center;
+    border-radius: 20px;
+    background-color: #182D40;
+    text-align: center;
+
+    /* nuevos */
+
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border-color: rgba(122, 206, 224, 0.5);
+    border-style: solid;
+
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.5);
+        border-style: solid;
+    }
+}
+
+/* Estilos del texto del título */
+#tituloTextoContacto {
+
+    text-align: center;
+    color: #FFFFFF !important;
+    font-family: "Poppins";
+
+    &:hover {
+        cursor: pointer;
+        /* box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8); */
+        filter: drop-shadow(0 4px 16px rgba(122, 206, 224, 1));
+    }
+
+}
+
+/* Estílos para acomodar habilidades */
+.sectionSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Acomodo de la separacion de las habilidades */
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estílos de titulo de habilidades  */
+.tituloHabilidades {
+    align-items: center;
+    border-radius: 20px;
+    background-color: #182D40;
+    text-align: center;
+
+    /* nuevos */
+
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border-color: rgba(122, 206, 224, 0.5);
+    border-style: solid;
+
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.5);
+        border-style: solid;
+    }
+}
+
+
+/* Estílos de titulos de habilidades */
+#textoHabilidades {
+    text-align: center;
+    color: #FFFFFF !important;
+    font-family: "Poppins";
+
+    &:hover {
+        cursor: pointer;
+        /* box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8); */
+        filter: drop-shadow(0 4px 16px rgba(122, 206, 224, 1));
+    }
+}
+
+/* Acomodo de filas de las habilidades */
+.filaSkill1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* Acomodo de filas de las habilidades */
+.filaSkill2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* Estilos de cada skill contorno y hover*/
+.skillStyle {
+    align-items: center;
+    border-radius: 20px;
+    background-color: #182D40;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+
+
+    /* nuevos */
+
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border-color: rgba(122, 206, 224, 0.5);
+    border-style: solid;
+
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.5);
+        border-style: solid;
+    }
+}
+
+/* Estílos de los íconos iconStyle*/
+.iconStyle {
+    color: #FFFFFF;
+    font-size: 64px;
+
+    &:hover {
+        color:  rgba(122, 206, 224, 1);
+        /* color: rgb(252, 73, 18); */
+        transition: 0.5s;
+    }
+
+}
+
+
+
+
+
+/* Estílos de los botones */
+.btnCVResume {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 26px;
+    font-family: "Poppins";
+    color: #182D40;
+    background-color: rgba(122, 206, 224, 0.8);
+    outline: none;
+    border-color: rgba(122, 206, 224, 0.8);
+
+    /* CSS nesting */
+    &:hover {
+        color: #FFFFFF;
+        background-color: #182D40;
+        outline: none;
+        border-color: #FFFFFF;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8);
+    }
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none !important; 
+    }
+}

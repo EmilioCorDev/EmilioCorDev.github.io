@@ -1,0 +1,102 @@
+/* Estilos CSS
+*Fondo:             #182D40
+*Fuente:            #FFFFFF
+*Contacto:          #F28705
+*Proyectos:         #F8DE63
+*Mantenimiento:     #8ABF17
+*FondoTextos:       rgba(122, 206, 224, 1)
+*Fuente: Popins titulos y texto DM sans
+*/
+
+body {
+    background-color: #182D40 !important;
+    margin: 0;
+}
+.text--mail{
+    margin-top: 15px;
+}
+p, span{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: "DM Sans";;
+}
+
+.mail, .linkedin, .github, .whatsapp{
+    color: #FFFFFF;
+    font-size: 64px;
+
+}
+.mail:hover, .linkedin:hover, .github:hover, .whatsapp:hover{
+color:  rgba(122, 206, 224, 1);
+transition: 0.5s;
+}
+
+
+.footer--container{
+    display: flex;
+    flex-direction: row;
+    /* gap: 50%; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Div con icono de correo y parrafo de correo */
+.contact--mail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/* Div con iconos de contacto */
+.contact--icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+/* Media query para iconos de contacto en columna en tamaños reducidos  */
+@media (max-width: 880px) {
+    .footer--container{
+        display: flex;
+        flex-direction: column;
+        /* gap: 50%; */
+        align-items: center;
+        
+        
+        
+    }
+}
+@media (max-width: 460px) {
+    .footer--container{
+        display: flex;
+        flex-direction: column;
+        /* gap: 20%; */
+        align-items: center;
+      
+    }
+
+    .contact--icons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .contact--mail{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .text--mail{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+
+.copyright{
+    text-align: center;
+
+}

@@ -1,0 +1,286 @@
+/* Estilos CSS
+*Fondo:             #182D40
+*Fuente:            #FFFFFF
+*Contacto:          #F28705
+*Proyectos:         #F8DE63
+*Mantenimiento:     #8ABF17
+*FondoTextos:       rgba(122, 206, 224, 1)
+*Fuente: Popins titulos y texto DM sans
+*/
+
+body {
+    background-color: #182D40 !important;
+    margin: 0;
+}
+
+/* ********************************************INICIO NAVBAR******************************************************* */
+
+/* Estructura de la navbar */
+.navbar_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #FFFFFF; */
+    /* padding: 10px 20px; */
+    /* gap: -300px; */
+    top: 0;
+    position: static !important;
+}
+
+/* Estilos del Div que contiene la imagen y el Desarrollador FullStack */
+.navbar_imagen {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Medias query para ajustar imagen y el Desarrollador FullStack en tamaño mediano md y chico sm */
+@media (max-width: 991px) {
+    .navbar_imagen {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 493px) {
+    .navbar_imagen {
+        color: #FFFFFF;
+        font-family: "Poppins";
+        font-weight: 90;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.navbar_imagen h3 {
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-weight: 500;
+
+}
+
+#logoWeb {
+    width: 150px;
+
+}
+
+/* Estilos del Div que contiene los botones */
+.navbar_botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+
+    /* width: 70%; */
+    /* padding: 20px; */
+}
+
+/* Medias query para ajustar a columna los botones en tamaño mediano md y chico sm */
+@media (max-width: 768px) {
+    .navbar_botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+
+        /* width: 70%; */
+        /* padding: 20px; */
+    }
+}
+
+/* Estilos del botón contacto con nesting */
+.boton_contacto {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 26px;
+    font-family: "Poppins";
+    color: #182D40;
+    background-color: #F28705;
+    outline: none;
+    border-color: #F28705;
+
+    /* CSS nesting */
+    &:hover {
+        color: #FFFFFF;
+        background-color: #182D40;
+        outline: none;
+        border-color: #FFFFFF;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8);
+    }
+
+}
+
+/* Estilos del botón proyectos con nesting */
+.boton_proyectos {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 26px;
+    font-family: "Poppins";
+    color: #182D40;
+    background-color: #F8DE63;
+    /*#ffd00*/
+    outline: none;
+    border-color: #ecc608;
+
+    /* CSS nesting */
+    &:hover {
+        color: #FFFFFF;
+        background-color: #182D40;
+        outline: none;
+        border-color: #FFFFFF;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8);
+    }
+
+}
+
+/* Estilos del botón mantenimiento con nesting */
+.boton_mantenimiento {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 26px;
+    font-family: "Poppins";
+    color: #182D40;
+    background-color: #8ABF17;
+    outline: none;
+    border-color: #8ABF17;
+
+    /* CSS nesting */
+    &:hover {
+        color: #FFFFFF;
+        background-color: #182D40;
+        outline: none;
+        border-color: #FFFFFF;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8);
+    }
+
+}
+
+/* ********************************************FIN NAVBAR******************************************************* */
+
+.tituloProyectos {
+    align-items: center;
+    background-color: #182D40;
+
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border-color: rgba(122, 206, 224, 0.5);
+    border-style: solid;
+    
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(122, 206, 224, 0.5);
+        
+        border-style: solid;
+    }
+
+}
+
+.tituloProyectos h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Poppins";
+    color: #FFFFFF;
+    &:hover {
+        cursor: pointer;
+        /* box-shadow: 0 4px 16px rgba(122, 206, 224, 0.8); */
+        filter: drop-shadow(0 4px 16px rgba(122, 206, 224, 1));
+    }
+    
+}
+
+/********************* ESTILOS CARDS *******************************/
+.card-body{
+    background-color: rgba(122, 206, 224, 0.8);
+    width: 90%;
+    border-radius: 20px;
+    margin: 10px 30px 30px 10px;
+    
+}
+.col-md-4{
+    background-color: #182D40;
+}
+.col-md-8 {
+    background-color: #182D40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /*border: solid 2px  rgba(122, 206, 224, 0.8);*/
+}
+
+.img-fluidd {
+    max-width: 80%;
+    height: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+    border-radius: 20px;
+
+    
+}
+
+.card-titulo{
+    font-size: 25px;
+    font-family: "Poppins";
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-texto{
+    font-size: 20px;
+    font-family: "DM Sans";
+    color: #FFFFFF;
+}
+.cardLink {
+    text-align: center;
+    font-family: "DM Sans";
+}
+
+.cards{
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+
+
+}
+.card{
+    border: 2px solid rgba(122, 206, 224, 0.5) !important;
+    
+}
+.card mb-3{
+display: flex;
+flex-direction: column;
+justify-items: center;
+text-align: center;
+
+
+
+}
+
